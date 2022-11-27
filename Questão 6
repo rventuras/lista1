@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main (){
+    float nota1, nota2, media;
+    printf ("Insira nota 1 e nota 2: ");
+    scanf ("%f%f", &nota1, &nota2);
+    media = ((nota1 * 3.5) + (nota2 * 7.5))/11;
+    printf ("Sua media eh %.1f", media);
+
+
+}
