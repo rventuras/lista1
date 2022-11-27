@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+int main (){
+    int raio, raio2, area;
+    printf ("Insira o raio: ");
+    scanf ("%d", &raio);
+    raio2 = pow(raio, 2);
+    area = 3.14 * raio2;
+    printf ("Area eh %d", area);
+   
+
+
+
+
+}
