@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main (){
+    char nome, sexo[1], matricula;
+    int horast;
+    float valor, salario;
+    printf ("Matricula tem 6 digitos\n");
+    printf ("Insira seu nome e matricula\n");
+    scanf ("%c%c", &nome, &matricula);
+    printf ("e seu sexo (H ou M)\n");
+    scanf ("%c", &sexo);
+    printf ("Insira suas horas de trabalho e quanto recebe por hora\n");
+    scanf ("%d%f", &horast, &valor);
+    salario = valor * horast;
+    printf ("Seu salario eh %f", salario);
+
+
+}
