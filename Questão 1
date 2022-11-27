@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main (){
+    int hora, minutos, segundos;
+    printf ("Insira uma hora: ");
+    scanf ("%d", &hora );
+    minutos = hora * 60;
+    segundos = minutos * 60;
+    printf ("Segundos eh igual a %d e minutos %d", segundos, minutos);
+    
+}
