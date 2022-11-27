@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main (){
+    int a, b, resto, resultado;
+    printf ("Insira dois valores: ");
+    scanf ("%d%d", &a, &b);
+    resto = a % b;
+    resultado = a / b;
+    printf ("Resto eh %d e quociente eh %d", resto, resultado);
+
+}
